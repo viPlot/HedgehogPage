@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hedgehog' favorite photos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .button-color {
+        background-color: rgba(27, 75, 117, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/"
+          ><img src="logo.png" alt="logo" width="150"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="photos.html">Favorite photos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img src="home.jpg" class="card-img-top" alt="hedgehog's home" />
+            <div class="card-body">
+              <h5 class="card-title">Home</h5>
+              <p class="card-text">My home is cosy. I like it.</p>
+              <a
+                href="home.jpg"
+                class="btn btn-primary button-color"
+                target="_blank"
+                >Look a large image</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="lover.jpg" class="card-img-top" alt="hedgehog's lover" />
+            <div class="card-body">
+              <h5 class="card-title">Lover's hug</h5>
+              <p class="card-text">With my BIG LOVE. It is so special.</p>
+              <a
+                href="lover.jpg"
+                class="btn btn-primary button-color"
+                target="_blank"
+                >Look a large image</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="mouse.jpg" class="card-img-top" alt="hunting" />
+            <div class="card-body">
+              <h5 class="card-title">Hunting</h5>
+              <p class="card-text">ho-ho. Someday I caught this big KRYSA.</p>
+              <a
+                href="mouse.jpg"
+                class="btn btn-primary button-color"
+                target="_blank"
+                >Look a large image</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="dreams.jpg"
+              class="card-img-top"
+              alt="hedgehog's dreams"
+            />
+            <div class="card-body">
+              <h5 class="card-title">In dreams</h5>
+              <p class="card-text">
+                I love to sleep so much. What could be better?
+              </p>
+              <a
+                href="dreams.jpg"
+                class="btn btn-primary button-color"
+                target="_blank"
+                >Look a large image</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="fuck.jpg" class="card-img-top" alt="hedgehog's fuck" />
+            <div class="card-body">
+              <h5 class="card-title">Vrednyakich</h5>
+              <p class="card-text">Sometimes my mood is bad :/</p>
+              <a
+                href="fuck.jpg"
+                class="btn btn-primary button-color"
+                target="_blank"
+                >Look a large image</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="am.png" class="card-img-top" alt="angry hedgehog" />
+            <div class="card-body">
+              <h5 class="card-title">Zlyukich</h5>
+              <p class="card-text">And sometimes EVIL.</p>
+              <a href="am" class="btn btn-primary button-color" target="_blank"
+                >Look a large image</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
